@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ToyRobot": {
+      "commandName": "Project",
+      "commandLineArgs": "testsample1.txt testsample2.txt testsample-invaliddata.txt"
+    }
+  }
+}
