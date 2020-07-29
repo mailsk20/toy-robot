@@ -1,5 +1,4 @@
 ## Toy Robot Application
-=========================
 
 > A toy robot simulator written in Asp.Net Core 3.1 framework with C#
 
