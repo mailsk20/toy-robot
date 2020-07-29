@@ -1,9 +1,5 @@
 ## Toy Robot Application
 
-```
-> A toy robot simulator written in Asp.Net Core 3.1 framework with C#
-```
-
 ## Description:
 The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5
 units x 5 units. There are no other obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table must be prevented, however further valid movement commands must still be allowed.
@@ -33,6 +29,33 @@ output is sufficient.
 - A robot that is not on the table can choose the ignore the `MOVE`, `LEFT`, `RIGHT` and `REPORT`
 commands.
 - Input can be from a file, or from standard input, as the developer chooses.
+
+
+## Get started
+
+```
+- A toy robot simulator written in Asp.Net Core 3.1 framework with C#
+- Make sure you have the latest git, Visual Studio 2019, Asp.Net Core 3.1 framework installed on your machine
+- I have used the Dependency Injection, TDD/Test, Documentation
+```
+
+#### Clone the repo from Github
+
+```bash
+$ git clone https://github.com/mailsk20/toy-robot.git
+```
+
+#### Build And Run Application
+
+- Open Visual Studio 2019
+- Open `REA-ToyRobot.sln` in visual studio
+- Build the application
+- Run application
+- It will display the output of run Toy Robot commands
+- All the commands are setupped in the text file, which you can modify.
+- You can go to source code folder -> `src` folder -> `TestData` folder, there you can find the three text files, where you can update the new command to test the application.
+- To update the text file name, you go to  `src` folder -> `Properties` folder -> `launchSettings.json` file. there you can update the `commandLineArgs` with the new text file name and run again application to verify the result.
+
 
 ## Completed application output screenshot
 
